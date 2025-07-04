@@ -13,7 +13,7 @@ closeBtn.addEventListener("click", () => {
 window.addEventListener("load", () => {
   const heroImg = document.getElementById("hero-image");
 
-  if (window.innerWidth < 1000) {
+  if (window.innerWidth > 1000) {
     heroImg.src = "assets/image-web-3-mobile.jpg";
   } else {
     heroImg.src = "assets/image-web-3-desktop.jpg";
