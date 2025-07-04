@@ -1,80 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>XNews Homepage</title>
-  <link rel="stylesheet" href="index.css" />
-</head>
-<body>
-  <!-- Header -->
-  <header class="header">
-    <img src="./logo.svg" alt="XNews Logo" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img src="assets/logo.svg" alt="Logo" />
 
-    <!-- Mobile Menu Button -->
-    <div id="menu-button" class="menu-button">
-      <button aria-label="Open menu">&#9776;</button>
-    </div>
+      <nav>
+        <ul class="nav-itmes">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
 
-    <!-- Navigation Menu -->
-    <nav class="nav-items">
-      <div id="menu-close" class="menu-button">
-        <button aria-label="Close menu">&times;</button>
+      <div id="menu-button" class="menu-button">
+        <button>☰</button>
       </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">New</a></li>
-        <li><a href="#">Popular</a></li>
-        <li><a href="#">Trending</a></li>
-        <li><a href="#">Categories</a></li>
-      </ul>
-    </nav>
-  </header>
+      <div id="menu-close" class="menu-button">
+        <button>×</button>
+      </div>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="hero-img">
-      <img src="./image-web-3-desktop.jpg" alt="Web 3.0 Illustration" />
-    </div>
-    <div class="main-text">
-      The Bright Future of Web 3.0?
-    </div>
-    <div class="read-more">
-      <button>Read more</button>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-img">
+        <img
+          id="hero-image"
+          src="assets/image-web-3-desktop.jpg"
+          alt="Hero Image"
+        />
+      </div>
+      <div class="main-text">
+        <h1>The Bright Future of Web 3.0?</h1>
+        <p>
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people.
+        </p>
+        <button>Read more</button>
+      </div>
+    </section>
 
-  <!-- Right Block News -->
-  <aside class="right-block">
-    <div class="news1">
-      <h3>Hydrogen VS Electric Cars</h3>
-    </div>
-    <div class="news2">
-      <h3>The Downsides of AI Artistry</h3>
-    </div>
-    <div class="news3">
-      <h3>Is VC Funding Drying Up?</h3>
-    </div>
-  </aside>
+    <!-- Right Block News -->
+    <aside class="right-block">
+      <div class="news1"><h3>Hydrogen VS Electric Cars</h3></div>
+      <div class="news2"><h3>The Downsides of AI Artistry</h3></div>
+      <div class="news3"><h3>Is VC Funding Drying Up?</h3></div>
+    </aside>
 
-  <!-- News Cards Section -->
-  <section class="second-section">
-    <div class="card">
-      <h3>Reviving Retro PCs</h3>
-    </div>
-    <div class="card">
-      <h3>Top 10 Laptops of 2022</h3>
-    </div>
-    <div class="card">
-      <h3>The Growth of Gaming</h3>
-    </div>
-  </section>
+    <!-- Bottom News Cards -->
+    <section class="second-section">
+      <div class="card"><h3>Reviving Retro PCs</h3></div>
+      <div class="card"><h3>Top 10 Laptops of 2022</h3></div>
+      <div class="card"><h3>The Growth of Gaming</h3></div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>Challenge by <a href="https://www.crio.do/" target="_blank">Crio.do</a> coded by<a href="https://www.github.com/selvaraj-p" target="_blank"> selvaraj-p</a></p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+      <p>
+        Challenge by <a href="https://www.crio.do/" target="_blank">Crio.do</a>.
+        Coded by
+        <a href="https://github.com/YOUR_USERNAME" target="_blank">Ajay</a>.
+      </p>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
